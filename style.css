@@ -1,3 +1,4 @@
+
 * {
 	box-sizing: border-box;
 }
@@ -15,7 +16,7 @@ body {
 	display: grid ;
 	grid-template-columns: 25% auto;
 	background-color: #630480;
-	height: 50px;
+	/*height: 50px;*/
 	position: fixed; /* Set the navbar to fixed position */
 	top: 0; /* Position the navbar at the top of the page */
 	width: 100%; /* Full width */
@@ -32,7 +33,17 @@ nav {
 
 nav a {
 	align-self: center;
-	color: black;
+	color: white;
+	font-family: 'Concert One', cursive;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+.navigationBar div {
+	padding: 15px 0px 10px 20px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 2em;
+	color: #F4E4FC;
 }
 .container {
 	margin: 10%;
