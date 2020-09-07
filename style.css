@@ -6,12 +6,23 @@ body {
 	padding: 0;
 	margin: 0;
 	font-size: 62.5%; /* this makes 1em = 10px */
+	display: grid;
+	grid-template-rows: 20% auto auto auto auto;
+	
 }
 
 .navigationBar {
-	margin: 10px;
 	display: grid ;
 	grid-template-columns: 25% auto;
+	background-color: #630480;
+	height: 50px;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	
+}
+.navigationBar div {
+	
 }
 nav {
 	/*justify-self: end;*/
@@ -20,7 +31,7 @@ nav {
 }
 
 nav a {
-	
+	align-self: center;
 	color: black;
 }
 .container {
