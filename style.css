@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 62.5%; /* this makes 1em = 10px */
+}
+
+.navigationBar {
+	margin: 10px;
+	display: grid ;
+	grid-template-columns: 25% auto;
+}
+nav {
+	/*justify-self: end;*/
+	display: flex;
+	justify-content: space-evenly; 
+}
+
+nav a {
+	
+	color: black;
+}
+.container {
+	margin: 10%;
+}
