@@ -32,14 +32,16 @@ nav {
 nav a {
 	align-self: center;
 	color: white;
-	font-family: 'Concert One', cursive;
+	font-family: 'Poppins', sans-serif;
 	text-decoration: none;
 	font-size: 2em;
+	padding: 8px;
+	border-radius: 5px;
 }
 
 .navigationBar div {
 	padding: 15px 0px 10px 20px;
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'Poppins', sans-serif;
 	font-size: 2em;
 	color: #F4E4FC;
 }
@@ -47,7 +49,7 @@ nav a {
 .container {
 	padding-top: 20px;
 	padding-left: 5%;
-	font-family: 'Londrina Solid', cursive;
+	font-family: 'Poppins', sans-serif;
 	font-size: 2em;
 }
 
@@ -59,7 +61,7 @@ video {
 
 .intro {
 	padding: 10% 5% 5% 5%;
-	font-family:Courier ;
+	font-family: 'Poppins', sans-serif;
 	z-index: 10;
 	position: absolute;
 	top: 10%;
