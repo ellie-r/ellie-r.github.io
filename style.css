@@ -39,6 +39,9 @@ nav a {
 	padding: 8px;
 	border-radius: 5px;
 }
+nav a:hover{
+	background-color: #D40454;
+}
 
 .navigationBar div {
 	padding: 15px 0px 10px 20px;
@@ -78,6 +81,13 @@ video {
 }
 .intro h2 {
 	font-size: 3em;
+}
+.contact {
+	
+}
+.linkedInContact img {
+	width: 4%;
+	height: 4%;
 }
 
 
