@@ -14,13 +14,14 @@ body {
 .navigationBar {
 	display: grid ;
 	grid-template-columns: 25% 75%;
-	background-color: #630480;
+	background-color: #270483;
+/*	background-color: #630480;*/
 	height: 60px;
 	position: fixed; /* Set the navbar to fixed position */
 	top: 0; /* Position the navbar at the top of the page */
 	width: 100%; /* Full width */
 	z-index: 10;
-	
+
 }
 
 nav {
@@ -51,6 +52,7 @@ nav a {
 	padding-left: 5%;
 	font-family: 'Poppins', sans-serif;
 	font-size: 2em;
+	color: #270483;
 }
 
 video {
@@ -67,6 +69,7 @@ video {
 	top: 10%;
 	left: 16px;
 	z-index:2;
+	color: white;
 
 }
 
