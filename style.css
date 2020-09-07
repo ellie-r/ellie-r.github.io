@@ -7,6 +7,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-size: 62.5%; /* this makes 1em = 10px */
+	background-color: #F3F1F9;
 	
 }
 
@@ -21,9 +22,7 @@ body {
 	z-index: 10;
 	
 }
-.navigationBar div {
-	
-}
+
 nav {
 	/*justify-self: end;*/
 	display: flex;
@@ -48,29 +47,27 @@ nav a {
 
 header {
 	/*padding-top: 60px;*/
-	height: 500px;
 }
 
 .container {
-	padding-top: 60px;
+	padding-top: 20px;
+	padding-left: 5%;
+	font-family: 'Londrina Solid', cursive;
+	font-size: 2em;
+	
 }
 .welcome {
-	/*display: grid;
-	grid-template-columns: 40% auto;*/
-
-	background-color: #F3F1F9;
+/*	display: grid;
+	grid-template-columns: 50% 50%;
+*/
 }
 .backgroundVideo {
 	/*grid-row-start: 0;*/
-	position: absolute;
 	/*left: 40%;*/
-	left: 0;
-	right:0;
-	top: 50px;
+	/*right:0;*/
+/*	top: 60px;*/
 	text-align: content;
 	background-size: cover;
-	object-fit: cover;
-
 }
 
 
@@ -81,14 +78,19 @@ video {
     width: 100%;
 
 	
+
+	
 }	
 
 .intro {
-	padding: 50px 20px 20px 20px;
+	padding: 10% 5% 5% 5%;
 	font-family:Courier ;
 	z-index: 10;
 	position: absolute;
+	top:80px;
 	left: 16px;
+	z-index:2;
+
 }
 
 .intro h1 {
@@ -97,3 +99,5 @@ video {
 .intro h2 {
 	font-size: 3em;
 }
+
+
