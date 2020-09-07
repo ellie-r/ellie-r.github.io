@@ -7,16 +7,14 @@ body {
 	padding: 0;
 	margin: 0;
 	font-size: 62.5%; /* this makes 1em = 10px */
-	display: grid;
-	grid-template-rows: 20% auto auto auto auto;
 	
 }
 
 .navigationBar {
 	display: grid ;
-	grid-template-columns: 25% auto;
+	grid-template-columns: 25% 75%;
 	background-color: #630480;
-	/*height: 50px;*/
+	height: 60px;
 	position: fixed; /* Set the navbar to fixed position */
 	top: 0; /* Position the navbar at the top of the page */
 	width: 100%; /* Full width */
@@ -45,6 +43,29 @@ nav a {
 	font-size: 2em;
 	color: #F4E4FC;
 }
+
+
+header {
+	padding-top: 60px;
+	height: 500px;
+}
+
 .container {
-	margin: 10%;
+	padding-top: 60px;
+}
+.welcome {
+	display: grid;
+	grid-template-columns: 40% auto;
+	background-color: #F3F1F9;
+}
+.backgroundVideo {
+	position: absolute;
+	left: 40%;
+	right:0;
+	top: 10%;
+}
+
+video {
+  height: 80%;
+  width: 80%;
 }
