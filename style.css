@@ -18,6 +18,7 @@ body {
 	position: fixed; /* Set the navbar to fixed position */
 	top: 0; /* Position the navbar at the top of the page */
 	width: 100%; /* Full width */
+	z-index: 10;
 	
 }
 .navigationBar div {
@@ -46,7 +47,7 @@ nav a {
 
 
 header {
-	padding-top: 60px;
+	/*padding-top: 60px;*/
 	height: 500px;
 }
 
@@ -54,18 +55,45 @@ header {
 	padding-top: 60px;
 }
 .welcome {
-	display: grid;
-	grid-template-columns: 40% auto;
+	/*display: grid;
+	grid-template-columns: 40% auto;*/
+
 	background-color: #F3F1F9;
 }
 .backgroundVideo {
+	/*grid-row-start: 0;*/
 	position: absolute;
-	left: 40%;
+	/*left: 40%;*/
+	left: 0;
 	right:0;
-	top: 10%;
+	top: 50px;
+	text-align: content;
+	background-size: cover;
+	object-fit: cover;
+
 }
 
+
+
 video {
-  height: 80%;
-  width: 80%;
+	z-index: -1;
+    height: 100%;
+    width: 100%;
+
+	
+}	
+
+.intro {
+	padding: 50px 20px 20px 20px;
+	font-family:Courier ;
+	z-index: 10;
+	position: absolute;
+	left: 16px;
+}
+
+.intro h1 {
+	font-size: 5em;
+}
+.intro h2 {
+	font-size: 3em;
 }
