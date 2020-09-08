@@ -1,4 +1,7 @@
-
+font-family {
+	font-family: "Source Sans Pro Bold";
+	@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;600&display=swap');
+}
 * {
 	box-sizing: border-box;
 }
@@ -58,7 +61,7 @@ nav a:hover{
 	color: #270483;
 }
 .aboutMe a{
-	font-weight: bold;
+	font-family: "Source Sans Pro Bold", sans-serif;
 	text-decoration: none;
 }
 
@@ -83,8 +86,14 @@ video {
 .intro h1 {
 	font-size: 5em;
 }
-.intro h2 {
+.intro p {
 	font-size: 3em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.aboutMe p {
+/*	font-size: 1em;*/
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .social-menu {
@@ -128,6 +137,18 @@ video {
 	color: #2484BC;
 }
 
-
+.contact {
+	color: white;
+	background-color:#560BE9;
+}
+footer {
+	color: white;
+	background-color: #560BE9;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+footer p {
+	margin:0;
+	
+}
 
 
