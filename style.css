@@ -52,6 +52,11 @@ nav a:hover{
 	font-size: 2em;
 	color: #F4E4FC;
 }
+.navigationBar img {
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
 
 .container {
 	padding-top: 20px;
@@ -63,6 +68,7 @@ nav a:hover{
 .aboutMe a{
 	font-family: "Source Sans Pro Bold", sans-serif;
 	text-decoration: none;
+	color: #270483;
 }
 
 video {
@@ -139,11 +145,11 @@ video {
 
 .contact {
 	color: white;
-	background-color:#560BE9;
+	background-color:#270483;
 }
 footer {
 	color: white;
-	background-color: #560BE9;
+	background-color: #270483;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 footer p {
