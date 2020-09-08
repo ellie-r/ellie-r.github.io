@@ -170,6 +170,10 @@ video {
 	background-color:#270483;
 	padding-bottom: 60px;
 }
+
+.contact p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
 footer {
 	color: white;
 	background-color: #270483;
