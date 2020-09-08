@@ -151,4 +151,23 @@ footer p {
 	
 }
 
+.projectBlocks {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap
+}
+
+.block {
+	margin: 20px;
+	width: 350px;
+	height: 350px;
+	background-color: #F3F1F9;
+	border: 10px solid white ;
+	box-shadow: 0 0px 80px rgba(86,11,233,0.4);
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+
+
+
 
