@@ -163,9 +163,14 @@ footer p {
 	height: 350px;
 	background-color: #F3F1F9;
 	border: 10px solid white ;
-	box-shadow: 0 0px 80px rgba(86,11,233,0.4);
-	font-family: 'Source Sans Pro', sans-serif;
+	/*box-shadow: 0 0px 80px rgba(86,11,233,0.4);*/
+	font-family: 'Poppins', sans-serif;
 	text-align: center;
+}
+
+.block img {
+	max-width:100%;
+	max-height:100%;
 }
 
 
