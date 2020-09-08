@@ -31,6 +31,7 @@ nav {
 	/*justify-self: end;*/
 	display: flex;
 	justify-content: space-evenly; 
+	
 }
 
 nav a {
@@ -110,14 +111,15 @@ video {
 	display: flex;
 	background-color: #F3F1F9;
 	border: 10px solid white ;
-	align-items: flex-start;
+	align-items: center;
 	
 }
 
 .bigBlock img {
 	padding: 5%;
-	/*text-align: center;*/
 	object-fit: contain;
+	max-width:100%;
+	max-height:100%;
 	
 }
 
@@ -189,7 +191,7 @@ footer p {
 .projectBlocks {
 	display: flex;
 	justify-content: space-evenly;
-	flex-wrap: wrap
+	flex-wrap: wrap;
 }
 
 .block {
