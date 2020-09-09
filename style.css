@@ -31,11 +31,9 @@ h3 {
 	display: grid ;
 	grid-template-columns: 25% 75%;
 	background-color: #270483;
-/*	background-color: #630480;*/
-/*	height: 6vh;*/
-	position: fixed; /* Set the navbar to fixed position */
-	top: 0; /* Position the navbar at the top of the page */
-	width: 100%; /* Full width */
+	position: fixed;
+	top: 0;
+	width: 100%;
 	z-index: 10;
 }
 
@@ -44,7 +42,6 @@ h3 {
 }
 
 nav {
-	/*justify-self: end;*/
 	display: flex;
 	justify-content: space-evenly; 	
 }
@@ -64,7 +61,7 @@ nav a:hover{
 	background-color: #D40454;
 }
 
-.navigationBar img {
+.navLogo {
 	margin-left: 1vw;
 }
 
@@ -79,6 +76,10 @@ nav a:hover{
 	font-weight: 600;
 	text-decoration: none;
 	color: #270483;
+}
+
+.aboutMe a:hover {
+	color: blue;
 }
 
 video {
@@ -109,7 +110,6 @@ video {
 
 .aboutMe p {
 	align-self: center;
-	/*padding: 5%;*/
 }
 
 .aboutMe.text {
@@ -117,7 +117,6 @@ video {
 }
 
 .bigBlock {
-	/*margin: 10%;*/
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
