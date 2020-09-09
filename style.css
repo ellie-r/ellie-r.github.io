@@ -116,7 +116,7 @@ video {
 	padding: 5%;
 }
 
-.bigBlock {
+.bio {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -127,7 +127,7 @@ video {
 	align-items: center;	
 }
 
-.bigBlock img {
+.bio img {
 	padding: 5%;
 	object-fit: contain;
 	max-width: 100%;
@@ -271,12 +271,12 @@ footer p {
 		width: 70%;
 	}
 	
-	.bigBlock {
+	.bio {
 		flex-direction: column;
 		padding: 0;
 	}
 	
-	.bigBlock img{
+	.bio img{
 		max-width: 100%;
 		max-height: 100%;
 	}
