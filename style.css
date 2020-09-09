@@ -214,6 +214,8 @@ footer p {
 
 
 
+
+
 @media only screen and (max-width: 1000px) {
 
 	.intro {
@@ -228,10 +230,12 @@ footer p {
 	.welcome {
 		padding-top: 120px;
 	}
-
-	video {
-		z-index: -20;
+	.video {
+		background-image: src("");
+		object-fit: cover;
+		width: 100vw;
 	}
+	
 	.intro {
 		padding-top: 70px;
 	}
@@ -251,3 +255,4 @@ footer p {
 		max-height: 100%;
 	}
 }
+
