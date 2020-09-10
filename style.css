@@ -218,8 +218,13 @@ footer p {
 }
 
 .project img {
+	height: 100%;
 	width: 100%;
 	object-fit: cover;
+}
+
+.projectImageContainer {
+	height: 100%;
 }
 
 .backgroundVideo {
