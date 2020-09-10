@@ -42,10 +42,6 @@ h3 {
 	background-color: #270483;
 }
 
-video {
-	margin-bottom: -5px;
-}
-
 nav {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -95,6 +91,7 @@ video {
 	z-index: -1;
     height: 100%;
     width: 100%;
+	margin-bottom: -5px;
 }	
 
 .intro {
