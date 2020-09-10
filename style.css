@@ -247,7 +247,7 @@ footer p {
 		grid-template-columns: 100%;
 	}
 	
-	.container {
+	.container, .welcome {
 		padding-top: 70px;
 	}
 
@@ -284,7 +284,7 @@ footer p {
 }
 
 @media only screen and (max-width: 500px) {
-	
+
 	.welcome {
 		padding-top: 70px;
 	}
