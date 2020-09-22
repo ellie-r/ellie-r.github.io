@@ -13,6 +13,7 @@ body {
 p {
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.5rem;
+	color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -183,7 +184,10 @@ video {
 .contact {
 	color: white;
 	background-color: #270483;
-	padding-bottom: 60px;
+	padding-bottom: 60px
+}
+.contact p, .welcome p {
+	color: white;
 }
 
 footer {
