@@ -13,7 +13,8 @@ body {
 p {
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.5rem;
-	color: black;
+	color: rgb(82, 79, 79);
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,6 +43,7 @@ h3 {
 	padding-top: 63px;
 	background-color: #270483;
 }
+
 
 nav {
 	display: -webkit-box;
@@ -186,6 +188,10 @@ video {
 	background-color: #270483;
 	padding-bottom: 60px
 }
+.contact p, .welcome p {
+	color: white;
+}
+
 .contact p, .welcome p {
 	color: white;
 }
